@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTorLib", "SharpTorLib\SharpTorLib.csproj", "{67D6FF6B-63FA-47A8-A1FF-70B4D0F0DB05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{14C02D09-EF58-4851-B882-E509540970F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTorLib.Example.SimpleGetVersion", "Examples\SharpTorLib.Example.SimpleGetVersion\SharpTorLib.Example.SimpleGetVersion.csproj", "{BFAC6063-56CC-41D7-842A-C9DDF1C40935}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharpTorLib.Examples.Common", "Examples\SharpTorLib.Examples.Common\SharpTorLib.Examples.Common.csproj", "{2C4B9666-A1BA-4DDF-9BF2-195EF1BDA6F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C4B9666-A1BA-4DDF-9BF2-195EF1BDA6F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C4B9666-A1BA-4DDF-9BF2-195EF1BDA6F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C4B9666-A1BA-4DDF-9BF2-195EF1BDA6F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C4B9666-A1BA-4DDF-9BF2-195EF1BDA6F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{67D6FF6B-63FA-47A8-A1FF-70B4D0F0DB05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67D6FF6B-63FA-47A8-A1FF-70B4D0F0DB05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67D6FF6B-63FA-47A8-A1FF-70B4D0F0DB05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67D6FF6B-63FA-47A8-A1FF-70B4D0F0DB05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFAC6063-56CC-41D7-842A-C9DDF1C40935}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFAC6063-56CC-41D7-842A-C9DDF1C40935}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFAC6063-56CC-41D7-842A-C9DDF1C40935}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFAC6063-56CC-41D7-842A-C9DDF1C40935}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BFAC6063-56CC-41D7-842A-C9DDF1C40935} = {14C02D09-EF58-4851-B882-E509540970F9}
+		{2C4B9666-A1BA-4DDF-9BF2-195EF1BDA6F4} = {14C02D09-EF58-4851-B882-E509540970F9}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Examples\SharpTorLib.Example.SimpleGetVersion\SharpTorLib.Example.SimpleGetVersion.csproj
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
